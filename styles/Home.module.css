@@ -144,8 +144,8 @@
 }
 
 .goSearchButton {
-  background: rgb(254, 4, 60);
-    border-top-left-radius: 100px;
+  background: rgb(254, 4, 60) !important;
+    border-top-left-radius: 100px !important;
     width: 90px;
     margin: 4px !important;
 }
