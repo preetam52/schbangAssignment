@@ -1,0 +1,45 @@
+@media only screen and(max-width: 650px) {
+    .serviceContainer {
+        flex-direction: column !important;
+    }
+}
+
+.serviceContainer {
+    display: flex;
+    margin: 2.5em 0;
+}
+
+
+
+.block {
+    flex: 1;
+    display: flex;
+}
+
+.flexRow {
+    flex-direction: row;
+}
+
+.flexCol {
+    flex-direction: column;
+}
+
+.serviceLogo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceText {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.heading {
+    color: purple;
+}

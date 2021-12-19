@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 2rem 1rem;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: large;
+    color: purple;
+  }
+
+  .description {
+    text-align: center;
+    margin: 2em 0;
+    color: #978e8e;
+    font-size: small;
+  }
+
+  .routes {
+    margin: 2em 0;
+  }
+
+  .route {
+    color: #978e8e;
+    font-size: small;
+    margin-right: 20px;
+    cursor: pointer;
+  }

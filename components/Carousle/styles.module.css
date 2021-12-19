@@ -1,0 +1,17 @@
+.slider {
+    width: 400px;
+    background: linear-gradient(to right, transparent 50%, #fe053c 50%);
+    padding: 1em;
+}
+
+@media only screen and (max-width: 970px) {
+    .slider {
+      width: 300px;
+    }
+  }
+
+  .sliderButtons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2em;
+  }

@@ -1,0 +1,12 @@
+.cardFooter {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 470px){
+    .cardFooter {
+        flex-direction: column !important;
+        align-content: space-between;
+    }
+}

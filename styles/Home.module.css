@@ -1,0 +1,172 @@
+.container {
+  padding: 0 5rem;
+  max-width: 1100px;
+}
+
+@media only screen and (max-width: 970px) {
+  .container {
+    padding: 0 8px;
+  }
+
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.block {
+  display: flex;
+  margin: 10px 0;
+}
+
+.section1 {
+  flex: 1;
+  font-size: 20px;
+  border-left: 15px solid #FE043C;
+  padding: 0 1em;
+}
+
+.section2 {
+  flex: 2;
+}
+
+
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+}
+@media only screen and (max-width: 425px) {
+ 
+  .inp {
+    width: 250px !important;
+  }
+}
+
+.sliderBlock {
+  display: flex;
+}
+
+@media only screen and (max-width: 697px) {
+ 
+  .sliderBlock {
+    flex-direction: column-reverse;
+    align-self: center;
+  }
+}
+
+.goSearchButton {
+  background: rgb(254, 4, 60);
+    border-top-left-radius: 100px;
+    width: 90px;
+    margin: 4px !important;
+}
+
+.inp {
+  width: 350px;
+}
+
+.food {
+  font-size: 89px;
+    color: #F7EDE7;
+}
+
+.location {
+  color: white;
+    display: flex;
+    align-items: center;
+    background-color: #fe053c;
+    width: 150px;
+    padding: 7px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 4em 0;
+}

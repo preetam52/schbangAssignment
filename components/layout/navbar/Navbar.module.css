@@ -1,0 +1,33 @@
+.navbar {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: transparent;
+}
+
+.navs {
+    padding: 0 2em;
+    background-color: violet;
+}
+
+.brandLogo {
+    font-size: 32px;
+    color: #FE043C;
+    font-weight: bold;
+}
+
+.navContainer {
+    padding: 0 5em;
+}
+
+@media only screen and (max-width: 899px) {
+    .navContainer{
+        padding: 0;
+
+    }
+}
+
+.menu {
+    padding: 0 2em;
+}
+
